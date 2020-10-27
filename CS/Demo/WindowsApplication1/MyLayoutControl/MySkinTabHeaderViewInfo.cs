@@ -18,11 +18,9 @@ namespace WindowsApplication1
         {
 
         }
-
-        public override Size CalcMinPageSize()
+        public override Size CalcMinPageSize(BaseTabPageViewInfo info)
         {
             return MyPageMinSizeHelper.PageMinimumSize;
         }
-
     }
 }
