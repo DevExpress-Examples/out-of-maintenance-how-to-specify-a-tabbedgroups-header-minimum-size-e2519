@@ -18,9 +18,9 @@ Namespace WindowsApplication1
 
 		End Sub
 
-		Public Overrides Function CalcMinPageSize() As Size
-			Return MyPageMinSizeHelper.PageMinimumSize
-		End Function
+	Public Overrides Function CalcMinPageSize(ByVal info As BaseTabPageViewInfo) As Size
+		Return MyPageMinSizeHelper.PageMinimumSize
+	End Function
 
 	End Class
 End Namespace
