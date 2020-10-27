@@ -7,10 +7,13 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{EC7220B2-8B9B-4CCC-9BA2-B0C141FC580F}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace></RootNamespace>
+    <RootNamespace>
+    </RootNamespace>
     <AssemblyName>WindowsApplication1</AssemblyName>
-    <FileUpgradeFlags></FileUpgradeFlags>
-    <UpgradeBackupLocation></UpgradeBackupLocation>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
     <OldToolsVersion>2.0</OldToolsVersion>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <TargetFrameworkProfile />
@@ -37,46 +40,12 @@
     <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="DevExpress.Pdf.v18.2.Core, Version=18.2.14.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>bin\Debug\DevExpress.Pdf.v18.2.Core.dll</HintPath>
-    </Reference>
-    <Reference Include="DevExpress.Office.v18.2.Core, Version=18.2.14.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>bin\Debug\DevExpress.Office.v18.2.Core.dll</HintPath>
-    </Reference>
-    <Reference Include="DevExpress.RichEdit.v18.2.Core, Version=18.2.14.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>bin\Debug\DevExpress.RichEdit.v18.2.Core.dll</HintPath>
-    </Reference>
-    <Reference Include="DevExpress.RichEdit.v18.2.Export, Version=18.2.14.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>bin\Debug\DevExpress.RichEdit.v18.2.Export.dll</HintPath>
-    </Reference>
-    <Reference Include="DevExpress.Printing.v18.2.Core, Version=18.2.14.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>bin\Debug\DevExpress.Printing.v18.2.Core.dll</HintPath>
-    </Reference>
-    <Reference Include="DevExpress.Data.v18.2, Version=18.2.14.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>bin\Debug\DevExpress.Data.v18.2.dll</HintPath>
-    </Reference>
-    <Reference Include="DevExpress.Utils.v18.2, Version=18.2.14.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>bin\Debug\DevExpress.Utils.v18.2.dll</HintPath>
-    </Reference>
-    <Reference Include="DevExpress.XtraEditors.v18.2, Version=18.2.14.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>bin\Debug\DevExpress.XtraEditors.v18.2.dll</HintPath>
-    </Reference>
-    <Reference Include="DevExpress.XtraPrinting.v18.2, Version=18.2.14.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>bin\Debug\DevExpress.XtraPrinting.v18.2.dll</HintPath>
-    </Reference>
-    <Reference Include="DevExpress.XtraLayout.v18.2, Version=18.2.14.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>bin\Debug\DevExpress.XtraLayout.v18.2.dll</HintPath>
-    </Reference>
+    <Reference Include="DevExpress.Printing.v13.1.Core, Version=13.1.14.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Data.v13.1, Version=13.1.14.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Utils.v13.1, Version=13.1.14.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraEditors.v13.1, Version=13.1.14.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraPrinting.v13.1, Version=13.1.14.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraLayout.v13.1, Version=13.1.14.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Deployment" />
@@ -94,7 +63,8 @@
     </Compile>
     <Compile Include="MyLayoutControl\MySkinTabHeaderViewInfo.vb" />
     <Compile Include="MyLayoutControl\MySkinViewInfoRegistrator.vb" />
-    <Compile Include="MyLayoutControl\MyPageMinSizeHelper.vb"></Compile>
+    <Compile Include="MyLayoutControl\MyPageMinSizeHelper.vb">
+    </Compile>
     <Compile Include="Program.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
     <EmbeddedResource Include="Form1.resx">
