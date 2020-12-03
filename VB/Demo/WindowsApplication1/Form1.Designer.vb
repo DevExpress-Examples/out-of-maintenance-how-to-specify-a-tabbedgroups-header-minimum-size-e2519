@@ -1,6 +1,4 @@
-Imports Microsoft.VisualBasic
-Imports System
-Namespace WindowsApplication1
+﻿Namespace WindowsApplication1
 	Partial Public Class Form1
 		''' <summary>
 		''' Required designer variable.
@@ -28,15 +26,15 @@ Namespace WindowsApplication1
 			Me.layoutControl1 = New DevExpress.XtraLayout.LayoutControl()
 			Me.layoutControlGroup1 = New DevExpress.XtraLayout.LayoutControlGroup()
 			Me.tabbedControlGroup1 = New DevExpress.XtraLayout.TabbedControlGroup()
-			Me.layoutControlGroup3 = New DevExpress.XtraLayout.LayoutControlGroup()
 			Me.layoutControlGroup2 = New DevExpress.XtraLayout.LayoutControlGroup()
 			Me.emptySpaceItem1 = New DevExpress.XtraLayout.EmptySpaceItem()
+			Me.layoutControlGroup3 = New DevExpress.XtraLayout.LayoutControlGroup()
 			CType(Me.layoutControl1, System.ComponentModel.ISupportInitialize).BeginInit()
 			CType(Me.layoutControlGroup1, System.ComponentModel.ISupportInitialize).BeginInit()
 			CType(Me.tabbedControlGroup1, System.ComponentModel.ISupportInitialize).BeginInit()
-			CType(Me.layoutControlGroup3, System.ComponentModel.ISupportInitialize).BeginInit()
 			CType(Me.layoutControlGroup2, System.ComponentModel.ISupportInitialize).BeginInit()
 			CType(Me.emptySpaceItem1, System.ComponentModel.ISupportInitialize).BeginInit()
+			CType(Me.layoutControlGroup3, System.ComponentModel.ISupportInitialize).BeginInit()
 			Me.SuspendLayout()
 			' 
 			' layoutControl1
@@ -55,11 +53,8 @@ Namespace WindowsApplication1
 			Me.layoutControlGroup1.EnableIndentsWithoutBorders = DevExpress.Utils.DefaultBoolean.True
 			Me.layoutControlGroup1.GroupBordersVisible = False
 			Me.layoutControlGroup1.Items.AddRange(New DevExpress.XtraLayout.BaseLayoutItem() { Me.tabbedControlGroup1})
-			Me.layoutControlGroup1.Location = New System.Drawing.Point(0, 0)
 			Me.layoutControlGroup1.Name = "layoutControlGroup1"
 			Me.layoutControlGroup1.Size = New System.Drawing.Size(904, 483)
-			Me.layoutControlGroup1.Spacing = New DevExpress.XtraLayout.Utils.Padding(0, 0, 0, 0)
-			Me.layoutControlGroup1.Text = "layoutControlGroup1"
 			Me.layoutControlGroup1.TextVisible = False
 			' 
 			' tabbedControlGroup1
@@ -68,41 +63,35 @@ Namespace WindowsApplication1
 			Me.tabbedControlGroup1.Location = New System.Drawing.Point(0, 0)
 			Me.tabbedControlGroup1.Name = "tabbedControlGroup1"
 			Me.tabbedControlGroup1.SelectedTabPage = Me.layoutControlGroup2
-			Me.tabbedControlGroup1.SelectedTabPageIndex = 0
 			Me.tabbedControlGroup1.Size = New System.Drawing.Size(884, 463)
 			Me.tabbedControlGroup1.TabPages.AddRange(New DevExpress.XtraLayout.BaseLayoutItem() { Me.layoutControlGroup2, Me.layoutControlGroup3})
-			Me.tabbedControlGroup1.Text = "tabbedControlGroup1"
+			' 
+			' layoutControlGroup2
+			' 
+			Me.layoutControlGroup2.CaptionImageOptions.Padding = New DevExpress.XtraLayout.Utils.Padding(0, 0, 0, 0)
+			Me.layoutControlGroup2.CustomizationFormText = "layoutControlGroup2"
+			Me.layoutControlGroup2.Items.AddRange(New DevExpress.XtraLayout.BaseLayoutItem() { Me.emptySpaceItem1})
+			Me.layoutControlGroup2.Location = New System.Drawing.Point(0, 0)
+			Me.layoutControlGroup2.Name = "layoutControlGroup2"
+			Me.layoutControlGroup2.Size = New System.Drawing.Size(860, 370)
+			Me.layoutControlGroup2.Text = "Tab1"
+			' 
+			' emptySpaceItem1
+			' 
+			Me.emptySpaceItem1.AllowHotTrack = False
+			Me.emptySpaceItem1.CustomizationFormText = "emptySpaceItem1"
+			Me.emptySpaceItem1.Location = New System.Drawing.Point(0, 0)
+			Me.emptySpaceItem1.Name = "emptySpaceItem1"
+			Me.emptySpaceItem1.Size = New System.Drawing.Size(860, 370)
+			Me.emptySpaceItem1.TextSize = New System.Drawing.Size(0, 0)
 			' 
 			' layoutControlGroup3
 			' 
 			Me.layoutControlGroup3.CustomizationFormText = "layoutControlGroup3"
 			Me.layoutControlGroup3.Location = New System.Drawing.Point(0, 0)
 			Me.layoutControlGroup3.Name = "layoutControlGroup3"
-			Me.layoutControlGroup3.Size = New System.Drawing.Size(860, 371)
+			Me.layoutControlGroup3.Size = New System.Drawing.Size(860, 370)
 			Me.layoutControlGroup3.Text = "Tab2"
-			' 
-			' layoutControlGroup2
-			' 
-			Me.layoutControlGroup2.CaptionImagePadding = New DevExpress.XtraLayout.Utils.Padding(0, 0, 0, 0)
-			Me.layoutControlGroup2.CustomizationFormText = "layoutControlGroup2"
-			Me.layoutControlGroup2.Items.AddRange(New DevExpress.XtraLayout.BaseLayoutItem() { Me.emptySpaceItem1})
-			Me.layoutControlGroup2.Location = New System.Drawing.Point(0, 0)
-			Me.layoutControlGroup2.Name = "layoutControlGroup2"
-			Me.layoutControlGroup2.Size = New System.Drawing.Size(860, 371)
-			Me.layoutControlGroup2.Text = "Tab1"
-			' 
-			' emptySpaceItem1
-			' 
-			Me.emptySpaceItem1.CustomizationFormText = "emptySpaceItem1"
-			Me.emptySpaceItem1.Location = New System.Drawing.Point(0, 0)
-			Me.emptySpaceItem1.Name = "emptySpaceItem1"
-			Me.emptySpaceItem1.Size = New System.Drawing.Size(860, 371)
-			Me.emptySpaceItem1.Text = "emptySpaceItem1"
-			Me.emptySpaceItem1.TextSize = New System.Drawing.Size(0, 0)
-			' 
-			' myPageMinSizeHelper1
-			' 
-
 			' 
 			' Form1
 			' 
@@ -115,9 +104,9 @@ Namespace WindowsApplication1
 			CType(Me.layoutControl1, System.ComponentModel.ISupportInitialize).EndInit()
 			CType(Me.layoutControlGroup1, System.ComponentModel.ISupportInitialize).EndInit()
 			CType(Me.tabbedControlGroup1, System.ComponentModel.ISupportInitialize).EndInit()
-			CType(Me.layoutControlGroup3, System.ComponentModel.ISupportInitialize).EndInit()
 			CType(Me.layoutControlGroup2, System.ComponentModel.ISupportInitialize).EndInit()
 			CType(Me.emptySpaceItem1, System.ComponentModel.ISupportInitialize).EndInit()
+			CType(Me.layoutControlGroup3, System.ComponentModel.ISupportInitialize).EndInit()
 			Me.ResumeLayout(False)
 
 		End Sub
@@ -130,7 +119,6 @@ Namespace WindowsApplication1
 		Private layoutControlGroup2 As DevExpress.XtraLayout.LayoutControlGroup
 		Private emptySpaceItem1 As DevExpress.XtraLayout.EmptySpaceItem
 		Private layoutControlGroup3 As DevExpress.XtraLayout.LayoutControlGroup
-
 
 	End Class
 End Namespace
